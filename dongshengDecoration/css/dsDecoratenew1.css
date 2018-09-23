@@ -1,0 +1,366 @@
+/*广告部分开始*/
+.banner {
+    position: relative;
+}
+.banner ul.banner_img {
+    height: 620px;
+    overflow: hidden;
+}
+.banner ul li {
+    float: left;
+}
+.banner ul.banner_no {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -75px;
+}
+.banner ul.banner_no li {
+    width: 50px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+}
+.banner ul.banner_no li a {
+    color: #fff;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    font-size: 20px;
+}
+.banner ul.banner_no li:hover {
+    background: url(../images/abc_box.png) no-repeat 4px 1px;
+}
+.banner ul.banner_no li:hover a {
+    color: #00a72b;
+}
+/*广告部分结束*/
+/*装修案例开始*/
+.decorationCase .dcHead {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 27px;
+    font-family: "微软雅黑";
+    border-bottom: 1px solid #dedfe0;
+    position: relative;
+}
+.decorationCase .dcHead p {
+    margin: 15px 0 28px;
+    font-size: 20px;
+}
+.decorationCase .dcHead span {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background-color: #3a424d;
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+    margin: 0 5px;
+}
+.decorationCase .dcHead span:hover {
+    background-color: #00a72b;
+}
+.decorationCase .dcHead .dcHead_b {
+    height: 3px;
+    width: 27px;
+    background-color: #00a72b;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -13px;
+}
+.decoration {
+    padding: 50px 0 0;
+    font-family: "微软雅黑";
+}
+.decoration_l {
+    width: 400px;
+    height: 600px;
+    background: url(../images/decoration.png) no-repeat;
+    color: #fff;
+}
+.decoration_l h3 {
+    margin-top: 240px;
+    font-size: 30px;
+    margin-left: 39px;
+}
+.decoration_l p {
+    margin-top: 58px;
+    width: 336px;
+    line-height: 24px;
+    margin-left: 39px;
+    font-size: 14px;
+    text-align: justify;
+}
+.decoration_m {
+    margin: 0 16px;
+}
+.decoration_m .dm_t,.decoration_r div {
+    margin-bottom: 12px;
+}
+.dm_t,.dm_b div,.dr_t,.decoration div {
+    position: relative;
+}
+.decoration_m span,.decoration_r span {
+    display: block;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    bottom: 3px;
+    color: #fff;
+    line-height: 30px;
+    text-indent: 2em;
+    font-size: 12px;
+}
+/*装修案例结束*/
+/*新闻资讯开始*/
+.newsInformation {
+    background-color: #3a424d;
+    font-family: "微软雅黑";
+}
+.newsTitle {
+    text-align: center;
+    padding: 65px 0 27px;
+    border-bottom: 1px solid #5d636c;
+    position: relative;
+}
+.newsTitle p {
+    margin: 15px 0 28px;
+    font-size: 20px;
+    color: #fff;
+}
+.newsTitle .newst_b {
+    height: 3px;
+    width: 27px;
+    background-color: #00a72b;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -13px;
+}
+.information {
+    padding: 50px 0 86px;
+}
+.information_l {
+    width: 450px;
+    height: 300px;
+    background-color: #d8d9db;
+    position: relative;
+}
+.information_l img {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+.information_l h3 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 50px 0 10px;
+}
+.information_l p {
+    line-height: 24px;
+    margin-left: 15px;
+}
+.information_l>p {
+    border-top: 1px solid #5ea418;
+    width: 211px;
+    font-size: 14px;
+    padding-top: 8px;
+    text-indent: 2em;
+}
+.information_l a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #00a72b;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: -10px;
+    position: absolute;
+    bottom: 10px;
+}
+.information_r img {
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.information_r dl dt {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.information_r dl dd {
+    width: 590px;
+    color: #8e8e8e;
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 51px;
+}
+/*新闻资讯结束*/
+/*公司简介开始*/
+.companyProfile {
+    padding: 80px 0 132px;
+    position: relative;
+    font-family: "微软雅黑";
+}
+.company {
+    margin-top: 15px;
+    border-bottom: 1px solid #dedfe0;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 360px;
+}
+.company p {
+    color: #10ac38;
+    font-size: 20px;
+    line-height: 70px;
+}
+.profile {
+    padding-left: 29px;
+    margin-top: -80px;
+}
+.profile_r p {
+    margin-top: 25px;
+    width: 620px;
+    font-size: 14px;
+    text-indent: 2em;
+    line-height: 25px;
+}
+.profile_r h2 {
+    font-size: 34px;
+}
+/*公司简介结束*/
+/*施工项目开始*/
+.construction {
+    position: relative;
+    font-family: "微软雅黑";
+}
+.construction h3 {
+    font-size: 20px;
+    color: #00a72b;
+    margin: 25px 0 27px;
+}
+.construction .csline {
+    width: 550px;
+    height: 1px;
+    background-color: #dedfe0;
+    position: absolute;
+    top: 65px;
+    left: 90px;
+}
+.construction .cstext {
+    width: 547px;
+    position: absolute;
+    top: 22px;
+    left: 650px;
+}
+.construction p {
+    font-size: 12px;
+    line-height: 20px;
+    width: 470px;
+    margin: auto;
+}
+.construction span {
+    font-size: 46px;
+    position: absolute;
+    top: -8px;
+}
+.construction .text_l {
+    left: -18px;
+}
+.construction .text_r {
+    right: -15px;
+}
+.construction .csImg div {
+    margin-right: 12px;
+    float: left;
+    position: relative;
+}
+.construction .csImg div:last-child {
+    margin-right: 0;
+}
+.construction .csImg a {
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    bottom: -20px;
+    left: 36px;
+}
+/*施工项目结束*/
+/*设计团队开始*/
+.dtTitle {
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 27px;
+    font-family: "微软雅黑";
+    border-bottom: 1px solid #dedfe0;
+    position: relative;
+}
+.dtTitle p {
+    margin: 15px 0 28px;
+    font-size: 20px;
+}
+.dtTitle .dtTitle_b {
+    height: 3px;
+    width: 27px;
+    background-color: #00a72b;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -13px;
+}
+.dTeam {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.dTeam div {
+    float: left;
+    width: 580px;
+    height: 200px;
+    margin-bottom: 50px;
+    background: url(../images/dt_bg.png) no-repeat;
+}
+.dTeam_one,.dTeam_three {
+    margin-right: 40px;
+}
+.dTeam div img {
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+}
+.dTeam div p{
+    color: #fff;
+    margin-left: 220px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.dTeam div p span {
+    display: block;
+    margin-top: 20px;
+}
+.dTeam div p a {
+    color: #fff;
+    height: 25px;
+    width: 100px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+}
+/*设计团队结束*/
+/*优势开始*/
+.advantage {
+    background-color: #373f4a;
+    padding: 40px 0 30px;
+    border-bottom: 1px solid #5a6069;
+}
+.advantage ul li {
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+/*优势结束*/

@@ -1,0 +1,152 @@
+/*装修案例开始*/
+.decorationCase .dcHead {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 27px;
+    font-family: "微软雅黑";
+    border-bottom: 1px solid #dedfe0;
+    position: relative;
+}
+.decorationCase .dcHead p {
+    margin: 17px 0 19px;
+    font-size: 20px;
+}
+.decorationCase .dcHead .dcHead_b {
+    height: 3px;
+    width: 27px;
+    background-color: #00a72b;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -13px;
+}
+.decoration {
+    padding: 50px 0 0;
+    font-family: "微软雅黑";
+}
+.decoration>p {
+    text-align: right;
+    color: #8e8e8e;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+/*左侧开始*/
+.main .main_left ul {
+    width: 198px;
+    border: 1px solid #3a424d;
+}
+.main .main_left ul li {
+    height: 48px;
+    width: 100%;
+    text-align: center;
+    line-height: 48px;
+    border-top: 1px solid #3a424d;
+}
+.main .main_left ul li.caseTitle {
+    height: 100px;
+    width: 100%;
+    font-size: 16px;
+    background: url(../images/case_leibie.png) no-repeat;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+.main .main_left ul li a {
+    color: #373f4a;
+    font-size: 14px;
+    display: block;
+    background: url(../images/caseLeibie_line2.png) no-repeat 60px 20px;
+}
+.main .main_left ul li a:hover {
+    color: #00a72b;
+    background: url(../images/caseLeibie_line1.png) no-repeat 60px 20px;
+}
+/*左侧结束*/
+/*右侧开始*/
+.main_right {
+    width: 980px;
+}
+.main_right_top {
+    padding: 0 50px 0 15px;
+    background-color: #fff;
+}
+.main_right_top ul li {
+    border-bottom: 1px dashed #dedfe0;
+    height: 39px;
+    line-height: 39px;
+    font-size: 14px;
+    font-family: "宋体";
+}
+.main_right_top ul li a {
+    padding: 0 7px;
+    font-size: 14px;
+    color: #000;
+    margin: 0 12px;
+}
+.main_right_top ul li a:hover {
+    color: #fff;
+    background-color: #00a72b;
+}
+.main_right_top ul li:last-child {
+    border: none;
+}
+.main_right_bottom {
+    padding: 20px 10px 0;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.main_right_bottom ul li {
+    padding: 9px;
+    float: left;
+    border: 1px solid #fff;
+}
+.main_right_bottom ul li h6 {
+    margin-top: 20px;
+}
+.main_right_bottom ul li p {
+    font-size: 14px;
+    color: #a5a5a5;
+    margin-top: 10px;
+}
+.main_right_bottom ul li span {
+    display: block;
+    width: 98px;
+    height: 28px;
+    border: 1px solid #8e8e8e;
+    line-height: 28px;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    margin-top: 14px;
+}
+.main_right_bottom ul li:hover {
+    border: 1px solid #00a72b;
+}
+.main_right_bottom ol {
+    margin-left: 334px;
+}
+.main_right_bottom ol li {
+    float: left;
+    border: 1px solid #8e8e8e;
+    margin: 29px 5px 34px;
+}
+.main_right_bottom ol li a {
+    font-size: 14px;
+    display: block;
+    padding: 8px;
+    color: black;
+}
+/*右侧结束*/
+/*装修案例结束*/
+/*优势开始*/
+.advantage {
+    background-color: #373f4a;
+    padding: 40px 0 30px;
+    border-bottom: 1px solid #5a6069;
+}
+.advantage ul li {
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+/*优势结束*/

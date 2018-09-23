@@ -1,0 +1,138 @@
+/*关于东盛开始*/
+.aboutTitle {
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 27px;
+    font-family: "微软雅黑";
+    border-bottom: 1px solid #dedfe0;
+    position: relative;
+}
+.aboutTitle p {
+    margin: 16px 0 19px;
+    font-size: 20px;
+}
+.aboutTitle .aboutTitle_b {
+    height: 3px;
+    width: 27px;
+    background-color: #00a72b;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -13px;
+}
+.about_ds {
+    padding: 60px 23px 82px 27px;
+    font-family: "宋体";
+}
+.aboutds_img {
+    margin: 0 15px 0 22px;
+}
+.dongshengzhuangshi {
+    width: 660px;
+}
+.dongshengzhuangshi h1 {
+    font-size: 34px;
+}
+.dongshengzhuangshi span {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin: 15px 0 10px 90px;
+    /*padding-left: 90px;*/
+}
+.dongshengzhuangshi p {
+    font-size: 12px;
+    line-height: 35px;
+    text-indent: 4em;
+    color: #5f656e;
+    text-align: justify;
+}
+/*关于东盛结束*/
+/*企业优势开始*/
+.advantageTitle,.videoTitle {
+    text-align: center;
+    padding-bottom: 19px;
+    font-family: "微软雅黑";
+    border-bottom: 1px solid #dedfe0;
+    position: relative;
+}
+.advantageTitle p,.videoTitle p {
+    margin: 16px 0 19px;
+    font-size: 20px;
+}
+.advantageTitle .advantageTitle_b,.videoTitle .videoTitle_b {
+    height: 3px;
+    width: 27px;
+    background-color: #00a72b;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -13px;
+}
+.advantage {
+    padding: 18px 0 20px;
+}
+.advantage div {
+    height: 300px;
+    width: 280px;
+    float: left;
+    background-color: #fff;
+}
+.quality,.brand,.design {
+    margin-right: 26px;
+}
+.quality,.brand,.design,.service {
+    padding-top: 67px;
+    padding-left: 58px;
+    box-sizing: border-box;
+}
+.quality img:first-child,.brand img:first-child,.design img:first-child,.service img:first-child {
+    margin-bottom: 16px;
+}
+.quality img:last-child,.brand img:last-child,.design img:last-child,.service img:last-child {
+    margin-top: 20px;
+}
+.quality p,.brand p,.design p,.service p {
+    line-height: 24px;
+    font-size: 12px;
+    font-family: "宋体";
+}
+/*企业优势结束*/
+/*企业视频开始*/
+.video {
+    margin: 14px 0 30px;
+}
+.v_center {
+    background-color: #fff;
+    padding: 25px 0 25px 40px;
+}
+.v_center ul li {
+    float: left;
+    margin-right: 40px;
+    position: relative;
+}
+.v_center ul li p {
+    height: 35px;
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+    line-height: 35px;
+    text-indent: 29px;
+    background-color: rgba(0,0,0,.7);
+    position: absolute;
+    bottom: 10px;
+    display: none;
+}
+.v_center ul li img.bofang {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    display: none;
+}
+.v_center ul li:hover p,.v_center ul li:hover .bofang {
+    display: block;
+}
+
+/*企业视频结束*/

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品导航</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .clearfix:after {
+            content: "";
+            display: block;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+        }
+        .clearfix {
+            zoom: 1;
+        }
+        ul li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+        .nav {
+            width: 234px;
+        }
+        .nav>ul {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #585b62;
+            position: relative;
+        }
+        .nav>ul>li {
+            height: 42px;
+            line-height: 42px;
+        }
+        .nav>ul>li>a {
+            font-size: 16px;
+            color: #fff;
+            display: block;
+            padding-left: 29px;
+            background: url(./images/nav_jiantou.jpg) 90% 50% no-repeat;
+        }
+        .nav>ul>li:hover>a {
+            background: url(./images/navhover_jiantou.jpg) 90% 50% no-repeat;
+        }
+        .nav>ul>li:hover {
+            background-color: #ff6700;
+        }
+        .nav>ul>li:hover ul {
+            display: block;
+        }
+        .nav ul li ul {
+            width: 992px;
+            height: 459px;
+            background-color: #fff;
+            padding-left: 20px;
+            padding-top: 24px;
+            position: absolute;
+            top: 0;
+            left: 234px;
+            display: none;
+        }
+        .nav ul li ul li {
+            float: left;
+            width: 243px;
+            height: 71px;
+        }
+        .nav ul li ul li div {
+            width: 41px;
+            height: 34px;
+            float: left;
+            margin-top: 5px;
+            margin-right: 11px;
+        }
+        .nav ul li ul li img {
+            height: 34px;
+        }
+        .nav ul li ul li a {
+            font-size: 18px;
+            color: black;
+        }
+        .nav ul li ul li a:hover {
+            color: #ff6700;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#">手机 电话卡</a></li>
+            <li><a href="#">电视盒子</a></li>
+            <li><a href="#">笔记本 平板</a>
+                <ul class="clearfix">
+                    <li><div><img src="./images/pingban2.jpg" /></div><a href="#">小米平板4</a></li>
+                    <li><div><img src="./images/pms_1533266333.04566853!220x220.jpg" /></div><a href="#">笔记本Pro 15.6"</a></li>
+                    <li><div><img src="./images/ymjp80.jpg" /></div><a href="#">悦米机械键盘</a></li>
+                    <li><div><img src="./images/6838xiaozhuanjieqi.png" /></div><a href="#">USB至千兆网口转换器</a></li>
+                    <li><div><img src="./images/xmad_15350951136177_QUuVm.png" /></div><a href="#">小米笔记本15.6"</a></li>
+                    <li><div><img src="./images/pms_1533266333.04566853!220x220.jpg" /></div><a href="#">小米笔记本Pro 15.6"CTX</a></li>
+                    <li><div><img src="./images/jianpan80.jpg" /></div><a href="#">悦米机械键盘Pro静音版</a></li>
+                    <li><div><img src="./images/youxishubiao80.jpg" /></div><a href="#">游戏鼠标</a></li>
+                    <li><div><img src="./images/youxiben-80.jpg" /></div><a href="#">小米笔记本 15.6"第八代</a></li>
+                    <li><div><img src="./images/usbzjqggg80.jpg" /></div><a href="#">HDMI转换器</a></li>
+                    <li><div><img src="./images/pms_1478248566.62624407!220x220.jpg" /></div><a href="#">小米便捷鼠标</a></li>
+                    <li><div><img src="./images/bijibenshuangjianbao80.jpg" /></div><a href="#">笔记本双肩包</a></li>
+                    <li><div><img src="./images/80x80youxichuantu.png" /></div><a href="#">小米游戏本 15.6"</a></li>
+                    <li><div><img src="./images/vga.png" /></div><a href="#">VGA千兆网口转换器</a></li>
+                    <li><div><img src="./images/wxsb80.png" /></div><a href="#">小米无线鼠标</a></li>
+                    <li><div><img src="./images/shipeiqi80.jpg" /></div><a href="#">USB-C电源适配器</a></li>
+                    <li><div><img src="./images/bijiben80(1).jpg" /></div><a href="#">笔记本Air 12.5"</a></li>
+                    <li><div><img src="./images/neidanbao80.jpg" /></div><a href="#">小米笔记本内胆包</a></li>
+                    <li><div><img src="./images/xmsbd80.jpg" /></div><a href="#">鼠标垫</a></li>
+                    <li><div><img src="./images/xiaomipingbanpeijian80.jpg" /></div><a href="#">平板配件</a></li>
+                    <li><div><img src="./images/80x80.png" /></div><a href="#">笔记本Air 13.3"四核增强</a></li>
+                    <li><div><img src="./images/jianpan80.jpg" /></div><a href="#">小米游戏键盘</a></li>
+                    <li><div><img src="./images/USBC80.jpg" /></div><a href="#">DispalyPort转换器</a></li>
+                </ul>
+            </li>
+            <li><a href="#">家电 插线板</a></li>
+            <li><a href="#">出行 穿戴</a></li>
+            <li><a href="#">智能 路由器</a></li>
+            <li><a href="#">电源 配件</a></li>
+            <li><a href="#">个护 儿童</a></li>
+            <li><a href="#">耳机 音箱</a></li>
+            <li><a href="#">生活 箱包</a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.wr {
+    width: 1200px;
+    margin: auto;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+body {
+    background: url(../images/bg.png) no-repeat;
+}
+/*东盛装饰头部开始*/
+.header {
+    background-color: #181818;
+}
+.head img {
+    margin: 23px 0 24px 39px;
+}
+.head ul li {
+    float: left;
+    line-height: 80px;
+    width: 140px;
+    height: 100%;
+    text-align: center;
+}
+.head ul li:hover {
+    background-color: #00a72b;
+}
+.head ul li a {
+    color: #fff;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+/*东盛装饰头部结束*/
+/*尾部开始*/
+.footer {
+    background-color: #3a424d;
+    padding: 42px 0 90px;
+    color: #fff;
+    font-family: "宋体";
+}
+.foot div .first_p  {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.message {
+    width: 420px;
+    border-bottom: 1px solid #5b616a;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.webMessage p {
+    line-height: 28px;
+    font-size: 12px;
+}
+.chat p {
+    line-height: 50px;
+}
+.footline {
+    height: 140px;
+    width: 1px;
+    background-color: #5b616a;
+    margin: 24px 55px;
+}
+.contantUs table {
+    height: 155px;
+    width: 255px;
+    text-align: right;
+    font-size: 12px;
+}
+.contantUs table tr {
+    border-bottom: 1px solid #5b616a;
+}
+.c_td {
+    text-align: left;
+}
+.fastIn ul {
+    width: 300px;
+}
+.fastIn ul li {
+    width: 135px;
+    height: 40px;
+    line-height: 35px;
+    float: left;
+    border-bottom: 1px solid #5b616a;
+    background: url(../images/fast_li.png) no-repeat 120px 16px;
+}
+.fastIn ul li a {
+    color: #fff;
+    font-size: 12px;
+}
+.fast_li {
+    margin-left: 27px;
+}
+/*尾部结束*/

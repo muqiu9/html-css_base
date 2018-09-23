@@ -1,0 +1,114 @@
+/*装修资讯开始*/
+.newsInformation .newsHead {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 27px;
+    font-family: "微软雅黑";
+    border-bottom: 1px solid #dedfe0;
+    position: relative;
+}
+.newsInformation .newsHead p {
+    margin: 17px 0 19px;
+    font-size: 20px;
+}
+.information {
+    text-align: center;
+}
+.information>span {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background-color: #3a424d;
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px 30px;
+}
+.newsInformation .newsHead .newsHead_b {
+    height: 3px;
+    width: 27px;
+    background-color: #00a72b;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -13px;
+}
+.information>span:hover {
+    background-color: #00a72b;
+}
+.information {
+    padding: 50px 0 0;
+    font-family: "微软雅黑";
+}
+.information>p {
+    text-align: right;
+    color: #8e8e8e;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+.main>div {
+    margin-bottom: 25px;
+    width: 575px;
+    height: 251px;
+    background-color: #fff;
+    text-align: left;
+    padding-top: 32px;
+    padding-left: 26px;
+    box-sizing: border-box;
+}
+.main>div>div {
+    width: 293px;
+    margin-left: 27px;
+}
+.main>div>div span {
+    font-size: 14px;
+    margin-right: 30px;
+    color: #a5a5a5;
+}
+.main>div>div img {
+    vertical-align: middle;
+    margin-right: 30px;
+}
+.main>div>div h3 {
+    font-size: 16px;
+    margin: 20px 0;
+}
+.main>div>div>div {
+    background-color: #dedfe0;
+    width: 200px;
+    height: 1px;
+    margin-left: 1px;
+    margin-bottom: 20px;
+}
+.main>div>div p {
+    font-size: 12px;
+    line-height: 20px;
+}
+.main ol {
+    margin-left: 463px;
+}
+.main ol li {
+    float: left;
+    border: 1px solid #8e8e8e;
+    margin: 29px 5px 34px;
+}
+.main ol li a {
+    font-size: 14px;
+    display: block;
+    padding: 8px;
+    color: black;
+}
+/*装修资讯结束*/
+/*优势开始*/
+.advantage {
+    background-color: #373f4a;
+    padding: 40px 0 30px;
+    border-bottom: 1px solid #5a6069;
+}
+.advantage ul li {
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+/*优势结束*/

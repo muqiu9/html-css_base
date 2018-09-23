@@ -1,0 +1,114 @@
+/*装修案例开始*/
+.constructionSite .siteHead {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 27px;
+    font-family: "微软雅黑";
+    border-bottom: 1px solid #dedfe0;
+    position: relative;
+}
+.constructionSite .siteHead p {
+    margin: 17px 0 19px;
+    font-size: 20px;
+}
+.constructionSite .siteHead .siteHead_b {
+    height: 3px;
+    width: 27px;
+    background-color: #00a72b;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -13px;
+}
+.site {
+    padding: 50px 0 0;
+    font-family: "微软雅黑";
+}
+.site>p {
+    text-align: right;
+    color: #8e8e8e;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+.main {
+    background-color: #fff;
+    padding: 27px 50px 26px 50px;
+}
+.main>div {
+    margin-bottom: 23px;
+    padding-top: 23px;
+    padding-left: 24px;
+    background-color: #f3f3f3;
+    font-family: "微软雅黑";
+}
+.main>div>div {
+    margin-left: 34px;
+}
+.main>div>div>p {
+    font-size: 16px;
+    font-weight: bold;
+}
+.main>div>div>p span{
+    color: #00a72b;
+    font-size: 12px;
+    margin-left: 300px; 
+}
+.main>div>div div.site_line {
+    width: 200px;
+    height: 1px;
+    background-color: #00a72b;
+    margin: 27px 0 27px 1px;
+}
+.main>div>div div.site_people p {
+    color: #a2a2a2;
+    font-size: 12px;
+    margin-left: 112px;
+    line-height: 40px;
+}
+.main>div>div div.site_people p span {
+    color: #000;
+    font-size: 14px;
+    margin: 0 10px 0 2px;
+}
+.name {
+    text-align: right;
+    padding-right: 60px;
+    margin-top: -15px;
+}
+.details {
+    text-align: right;
+    padding-left: 320px;
+}
+.details span {
+    display: block;
+    width: 98px;
+    height: 28px;
+    border: 1px solid #8e8e8e;
+    text-align: center;
+    line-height: 28px;
+    float: left;
+}
+.details span a {
+    color: #8e8e8e;
+    font-size: 14px;
+    display: block;
+}
+.details span:hover {
+    border: 1px solid #00a72b;
+}
+.details span a:hover {
+    color: #00a72b;
+}
+/*装修案例结束*/
+/*优势开始*/
+.advantage {
+    background-color: #373f4a;
+    padding: 40px 0 30px;
+    border-bottom: 1px solid #5a6069;
+}
+.advantage ul li {
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+/*优势结束*/
