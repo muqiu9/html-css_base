@@ -1,0 +1,79 @@
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+.wr {
+    width: 1200px;
+    margin: 0 auto;
+}
+/*title部分*/
+.title {
+    margin-bottom: 9px;
+}
+.title h2 {
+    font-size: 25px;
+    padding-left: 7px;
+    margin-left: 2px;
+    border-left: 3px solid #fb6b39;
+}
+.title_menu {
+    font-size: 0;
+    padding-right: 10px;
+    padding-top: 7px;
+}
+.title_menu .title_main {
+    margin-right: 21px;
+}
+.title_line {
+    margin: 0 7px;
+    color: #e4e4e4;
+    font-size: 14px;
+}
+.title_menu a {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    height: 22px;
+    font-size: 14px;
+    vertical-align: top;
+}
+.title_menu a:hover {
+    color: #fb6b39;
+    border-bottom: 2px solid #fb6b39;
+}
+/*商品logo*/
+.goodsLogo {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    height: 89px;
+    font-size: 0;
+    margin-bottom: 70px;
+}
+.goodsLogo a {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    height: 100%;
+}
+.goodsLogo .goodsSpacer {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 1px;
+    height: 54px;
+    background-color: #ebebeb;
+    vertical-align: middle;
+}
